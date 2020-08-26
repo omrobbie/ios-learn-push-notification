@@ -28,5 +28,9 @@ class ViewController: UIViewController {
         let date = Date().addingTimeInterval(5)
         let dateComponents = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: date)
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+
+        let uuid = UUID().uuidString
+        let request = UNNotificationRequest(identifier: uuid, content: content, trigger: trigger)
+        center.add(request) { (_) in }
     }
 }
