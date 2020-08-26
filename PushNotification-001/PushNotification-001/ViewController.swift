@@ -13,4 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+
+    private func setupNotification() {
+        let center = UNUserNotificationCenter.current()
+        let options: UNAuthorizationOptions = [.alert, .badge, .sound]
+
+        center.requestAuthorization(options: options) { (_, _) in }
+    }
 }
