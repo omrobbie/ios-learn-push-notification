@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		FC31C12124F6373100192A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC31C11F24F6373100192A83 /* Main.storyboard */; };
 		FC31C12324F6373200192A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC31C12224F6373200192A83 /* Assets.xcassets */; };
 		FC31C12624F6373200192A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC31C12424F6373200192A83 /* LaunchScreen.storyboard */; };
+		FC31C12E24F6393700192A83 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC31C12D24F6393700192A83 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FC31C12224F6373200192A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC31C12524F6373200192A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC31C12724F6373200192A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC31C12D24F6393700192A83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				1C4AC7085A41446552854C94 /* Pods-PushNotification-002.debug.xcconfig */,
 				79AAA61C67BD61A7657A9A3D /* Pods-PushNotification-002.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				FC31C12224F6373200192A83 /* Assets.xcassets */,
 				FC31C12424F6373200192A83 /* LaunchScreen.storyboard */,
 				FC31C12724F6373200192A83 /* Info.plist */,
+				FC31C12D24F6393700192A83 /* GoogleService-Info.plist */,
 			);
 			path = "PushNotification-002";
 			sourceTree = "<group>";
@@ -153,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC31C12624F6373200192A83 /* LaunchScreen.storyboard in Resources */,
+				FC31C12E24F6393700192A83 /* GoogleService-Info.plist in Resources */,
 				FC31C12324F6373200192A83 /* Assets.xcassets in Resources */,
 				FC31C12124F6373100192A83 /* Main.storyboard in Resources */,
 			);
