@@ -24,5 +24,9 @@ class ViewController: UIViewController {
         content.title = "Title"
         content.body = "Body"
         content.sound = .default
+
+        let date = Date().addingTimeInterval(5)
+        let dateComponents = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: date)
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
     }
 }
