@@ -19,5 +19,10 @@ class ViewController: UIViewController {
         let options: UNAuthorizationOptions = [.alert, .badge, .sound]
 
         center.requestAuthorization(options: options) { (_, _) in }
+
+        let content = UNMutableNotificationContent()
+        content.title = "Title"
+        content.body = "Body"
+        content.sound = .default
     }
 }
